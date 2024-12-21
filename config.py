@@ -14,7 +14,7 @@ ADMINS = int(os.environ.get("ADMINS", "7577977996"))
 
 # Your Mongodb Database Url
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://cristi7jjr:tRjSVaoSNQfeZ0Ik@cluster0.kowid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "SaveRestrictedKeralaBot)
+DB_NAME = os.environ.get("DB_NAME", "SaveRestrictedKeralaBot")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
